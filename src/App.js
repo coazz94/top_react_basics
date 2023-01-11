@@ -57,8 +57,14 @@ import userEvent from '@testing-library/user-event';
     return (<div>{[element, link, greet, elementChildren]}</div>)
   }
 
+  const Test = () => {
+    const mjau = <h1 className='red'>mjau</h1>;
+    return (mjau)
+  }
+
 
 
 
 
 export default App;
+export  {Test};
